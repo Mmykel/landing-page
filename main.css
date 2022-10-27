@@ -1,0 +1,146 @@
+
+.background{
+    background: url(./images/logo.png);
+    position: absolute;
+    width: 59px;
+    height: 63px;
+    left: 1043px;
+    top: 22px;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+article {
+    display: inline-block;
+}
+
+.product-name {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    position: absolute;
+    width: 153px;
+    height: 40px;
+    left: 28px;
+    top: 15px;
+    color: #FFFFFF;
+}
+
+.call-to-action {
+    position: absolute;
+    width: 242px;
+    height: 30px;
+    left: 28px;
+    top: 401px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.benefit {
+    position: absolute;
+    width: 426px;
+    height: 27px;
+    left: 30px;
+    top: 431px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF
+}
+
+.product-overview {
+    background: url(images/background_image.png);
+    height: 700px;
+    width: 487px;
+    left: 0px;
+    top: 100%;
+    border-radius: 0px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.sign-up__details {
+    position: absolute;
+    top: 30px;
+}
+
+.sign-up__details h1{ 
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color:#086DB8;
+    margin-bottom: 31px;
+}
+
+.right-labels {
+    margin-left: 21px;
+}
+
+.labels {
+
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+input {
+    display: block;
+    width: 277px;
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+select {
+    display: block;
+    width:277px;
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.about-you input {
+    width: 575px;
+    height: 59px;
+    margin-top: 49;
+}
+
+button { 
+position: absolute;       
+width: 222px;
+height: 40px;
+left: 353px;
+margin-top: 20px;
+font-family: 'Playfair Display';
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+background: #3E53C4;
+border: 1px solid #086DB8;
+border-radius: 10px 0px;
+cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: #086DB8;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: #ff5454;
+}
